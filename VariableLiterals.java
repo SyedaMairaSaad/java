@@ -26,7 +26,7 @@ public class VariableLiterals {
 		// contain only true or false (0 and 1 is not there in java)
 		boolean bol=false;
 		//char	2 bytes	Stores a single character/letter or ASCII values
-        //char allow single character , in char  single quote is used
+                //char allow single character , in char  single quote is used
 		// in java char is of 2 byte to allow other language character as an literal
 		char c='a';	
 		//Below statement is used to simply print value contain in variable
