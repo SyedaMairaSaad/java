@@ -3,7 +3,7 @@ enum LaptopDetail{
 	MAC(2000),HP(150),Surface(120);
 	private int price;
 	
-	LaptopDetail(int price){
+	private LaptopDetail(int price){
 		this.price=price;
 	}	
 
