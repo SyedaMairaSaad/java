@@ -23,10 +23,7 @@ public class JdbcConnectivity {
 		String userName="root";
 		String password="XzyAbc12345";
 		
-		
-		String query ="select firstName from persons where PersonID=1";
-
-		
+		String query ="select firstName from persons where PersonID=1";		
 		
 		//2- step 2: set Driver 
 		Class.forName("com.mysql.cj.jdbc.Driver");
@@ -36,8 +33,7 @@ public class JdbcConnectivity {
 			//4- Prepare statment
 			Statement st=con.createStatement();
 			//5-Executer Query
-			ResultSet rs= st.executeQuery(query);
-			
+			ResultSet rs= st.executeQuery(query);	
 			
 			//6- Process result
 			//use re.next() to fix exception of  java.sql.SQLException: Before start of result set
@@ -50,9 +46,6 @@ public class JdbcConnectivity {
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
-		
-		
+		}		
 	}
-
 }
